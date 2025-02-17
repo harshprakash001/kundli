@@ -1,0 +1,15 @@
+{
+  "name": "astrology-website",
+  "version": "1.0.0",
+  "description": "A beautiful astrology website for match-making",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env PORT=5000 node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "dotenv": "^16.3.1",
+    "cross-env": "^7.0.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5"
+  },
+  "name": "hellabyte-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   "dev": "npm run start-all",
+  "start-all": "concurrently \"npm run start-panditpunit\" \"npm run start-astrology\"",
+  "start-panditpunit": "cd panditpunit && npm run dev",
+  "start-astrology": "cd panditpunit/public/astrology-website && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
