@@ -1,0 +1,12 @@
+{
+  "name": "hellabyte-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start-project-one": "cd panchang-website && npm run dev",
+    "start-project-two": "cd astrology-website && npm start",
+    "start-all": "concurrently \"npm run start-project-one\" \"npm run start-project-two\""
+  },
+  "dependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
